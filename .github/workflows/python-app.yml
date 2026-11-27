@@ -38,4 +38,4 @@ jobs:
       run: |
         pytest
     - name: Run script
-      run: python test_while.py
+      run: python -u test_while.py
