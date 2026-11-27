@@ -38,6 +38,4 @@ jobs:
       run: |
         pytest
     - name: Run script
-      run: | 
-        python test_while.py
-        print(test_number)
+      run: python test_while.py
